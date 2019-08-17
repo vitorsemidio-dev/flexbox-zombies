@@ -1,0 +1,10 @@
+.crossbow {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.target:last-child {
+  align-self: flex-end; 
+}

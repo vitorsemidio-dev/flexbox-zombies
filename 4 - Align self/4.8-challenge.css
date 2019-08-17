@@ -1,0 +1,21 @@
+.crossbow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.target:nth-child(even) {
+  align-self: flex-start;
+}
+
+
+/* ??? */
+/* .crossbow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .target:nth-child(odd) {
+    align-self: center;
+} */
